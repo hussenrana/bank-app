@@ -1,0 +1,17 @@
+.navFontColor {
+    color: white !important;
+}
+
+.balance {
+    color: white;
+    margin-right: 55px !important;
+    display: flex;
+}
+
+.navbarDeposit {
+    color: #42dba8;
+  }
+  
+  .navbarWithdraw {
+    color: #e74b4b;
+  }

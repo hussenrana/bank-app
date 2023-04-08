@@ -1,0 +1,60 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  box-shadow: 0px 0px 10px #7b7a7a;
+  width: 100%;
+  padding: 10px;
+}
+
+.nameCategory label {
+  color: white;
+  background-color: #124f7a;
+  width: 70%;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.nameCategory h4 {
+  margin-top: 15px;
+}
+
+.amount {
+  display: grid;
+  grid-template-rows: auto auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.amount label {
+  color: black;
+  /* background-color: #47d989; */
+  width: 70%;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 auto;
+  color: white;
+}
+
+.amount button {
+  background-color: #e74b4b;
+  color: white;
+  border: none;
+  width: 110px;
+  height: 55px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 25px;
+  align-self: center;
+  margin: 15px auto;
+  border-radius: 8px;
+}
+
+.deposit {
+  background-color: #42dba8;
+}
+
+.withdraw {
+  background-color: #e74b4b;
+}
